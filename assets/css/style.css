@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
+.header-container a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.header-container a:hover{
+    color: rgb(172, 170, 170);
+}
+
+
+.portfolio-section-container{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
+.left-side span{
+    color: rgb(199, 130, 4);
+}
+
+
+h1{
+    font-size: 90px;
+}
+
+p{
+    padding-top: 40px;
+    font-size: 32px;
+}
+
+
+.btn-group{
+    padding: 16px;
+}
+
+.btn-group .first-btn{
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+
+.btn-group .second-btn{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.right-side a{
+    padding-right: 19px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+a:nth-child(6)
+a:nth-child(7){
+    border: 1px solid black;
+    padding: 16px;
+    background-color: black;
+    color: white;
+}
+
+
+.trusted-section{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.logos{
+    padding:30px;
+
+}
